@@ -1,0 +1,50 @@
+.page-title {
+    background-color: rgb(32, 129, 41);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-card {
+    background-color: #14a1b4;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.user-card-header {
+    text-align: start;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.user-card-body {
+    display: flex;
+    gap: 50px;
+}
+
+.user-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+
+.user-info {
+    display: grid;
+    grid-template-columns: max-content auto;
+    column-gap: 30px;
+    row-gap: 10px;
+    font-size: 14px;
+}
+
+.user-info-label {
+    text-align: right;
+    font-weight: bold;
+}
+
+.user-info-value {
+    text-align: left;
+}
