@@ -41,43 +41,40 @@ export default class PersonList extends Component {
                                 />
                             </div>
                             <div className="user-info">
-                                <span class="user-info-label">User Name:</span>
-                                <span class="user-info-value">{p.login.username}</span>
+                                <span className="user-info-label">User Name:</span>
+                                <span className="user-info-value">{p.login.username}</span>
 
-                                <span class="user-info-label">Gender:</span>
-                                <span class="user-info-value">{p.gender.toUpperCase()}</span>
+                                <span className="user-info-label">Gender:</span>
+                                <span className="user-info-value">{p.gender.toUpperCase()}</span>
 
-                                <span class="user-info-label">Time Zone Description:</span>
-                                <span class="user-info-value">{p.location.timezone.description}</span>
+                                <span className="user-info-label">Time Zone Description:</span>
+                                <span className="user-info-value">{p.location.timezone.description}</span>
 
-                                <span class="user-info-label">Address:</span>
-                                <span class="user-info-value">
+                                <span className="user-info-label">Address:</span>
+                                <span className="user-info-value">
                                     {p.location.street.number} {p.location.street.name}, {p.location.city}, {p.location.state}, {p.location.country} - {p.location.postcode}
                                 </span>
 
-                                <span class="user-info-label">Email:</span>
-                                <span class="user-info-value">{p.email}</span>
+                                <span className="user-info-label">Email:</span>
+                                <span className="user-info-value">{p.email}</span>
 
-                                <span class="user-info-label">Birth Date and Age:</span>
-                                <span class="user-info-value">{p.dob.date} ({p.dob.age})</span>
+                                <span className="user-info-label">Birth Date and Age:</span>
+                                <span className="user-info-value">{p.dob.date} ({p.dob.age})</span>
 
-                                <span class="user-info-label">Register Date:</span>
-                                <span class="user-info-value">{p.registered.date}</span>
+                                <span className="user-info-label">Register Date:</span>
+                                <span className="user-info-value">{p.registered.date}</span>
 
-                                <span class="user-info-label">Phone #:</span>
-                                <span class="user-info-value">{p.phone}</span>
+                                <span className="user-info-label">Phone #:</span>
+                                <span className="user-info-value">{p.phone}</span>
 
-                                <span class="user-info-label">Cell #:</span>
-                                <span class="user-info-value">{p.cell}</span>
+                                <span className="user-info-label">Cell #:</span>
+                                <span className="user-info-value">{p.cell}</span>
                             </div>
                         </div>
                     </div>
-
                 ))}
-
             </div>
         );
     }
-
 }
 
